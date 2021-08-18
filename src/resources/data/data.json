@@ -1,0 +1,176 @@
+{
+  "heroes":[
+    {
+      "name": "Homen-Aranha",
+      "about": "Após ser mordido por uma aranha radioativa, Peter Parker se torna o amigo da vizinhança, o Homem-Aranha.",
+      "cover":"https://wallpapershome.com/images/pages/pic_v/21158.jpg",
+      "lastApparitions": [
+        "Capitão América - Guerra Civil",
+        "Homem-Aranha - De Volta ao Lar",
+        "Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato",
+        "Homem-Aranha - Longe de Casa"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "Wanda Maximoff",
+      "about": "Wanda Maximoff foi sequestrada da Sérvia e trazida para a Montanha Wundagore, base do Alto Evolucionário. Durante anos, ela e seu irmão gêmeo, Pietro, acreditavam que eram filhos de um casal de ciganos.",
+      "cover":"https://c4.wallpaperflare.com/wallpaper/526/481/142/wanda-maximoff-scarlet-witch-4k-elizabeth-olsen-wallpaper-preview.jpg",
+      "lastApparitions": [
+        "Vingadores - Era de Ultron",
+        "Capitão América - Guerra Civil",
+        "Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato",
+        "WandaVision"
+      ],
+      "stars": 4
+    },
+    {
+      "name": "Thanos",
+      "about": "A lua titã era governada por Mentor (A´Lars), quando então reinava paz e tecnologia. Ao contrário do irmão, Thanos, era bem mais poderoso e almejava ainda mais.",
+      "cover":"https://c4.wallpaperflare.com/wallpaper/191/235/664/thanos-avengers-infinity-war-4k-wallpaper-preview.jpg",
+      "lastApparitions": [
+        "Vingadores",
+        "Guardiões da Galáxia - vol. I",
+        "Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "Hulk",
+      "about": "Na história original dos quadrinhos, o Hulk é um selvagem poderoso alter ego do Dr. Robert Bruce Banner, um cientista que foi atingido por raios gama enquanto salvava um adolescente durante o teste militar",
+      "cover":"https://cdn.wallpapersafari.com/66/36/Rsg36i.jpg",
+      "lastApparitions": [
+        "Vingadores",
+        "Vingadores - Era de Ultron",
+        "Thor - Ragnarok",
+        "Vingadores - Guerra Infinita",
+        "Vingadores - Ultimato"
+      ],
+      "stars": 4
+    }
+  ],
+  "movies": [
+    {
+      "name":"Homem de Ferro",
+      "about": "Tony Stark (Robert Downey Jr.) é um industrial bilionário, que também é um brilhante inventor, ao ser sequestrado, ele é obrigado a construir uma arma devastadora, mas ao invés disso, cria uma armadura capaz de mudar a história.",
+      "releaseDate": 2008,
+      "chronologicalOrder": 3,
+      "poster":"https://img.elo7.com.br/product/zoom/1DFB189/poster-cartaz-iron-man-homem-de-ferro-poster-tematico.jpg",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 3
+    },
+    {
+      "name":"Homem de Ferro 2",
+      "about": "O mundo já sabe que o inventor bilionário Tony Stark (Robert Downey Jr.) é o super-herói blindado Homem de Ferro. Sofrendo pressão do governo, da mídia e do público para compartilhar sua tecnologia com as forças armadas",
+      "releaseDate": 2010,
+      "chronologicalOrder": 4,
+      "poster":"https://m.media-amazon.com/images/I/81sC6pkIARL._AC_SL1500_.jpg",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 4
+    },
+    {
+      "name":"Thor",
+      "about": "Quando é banido do reino de Asgard e exilado na Terra, o arrogante guerreiro Thor (Chris Hermsworth) é obrigado a lutar para reaver seus poderes perdidos.",
+      "releaseDate": 2011,
+      "chronologicalOrder": 6,
+      "poster":"https://static.wikia.nocookie.net/be64cdb9-7dd7-465d-a71a-ebedefce1bb0",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 5
+    },
+    {
+      "name":"Capitão América",
+      "about": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo.",
+      "releaseDate": 2011,
+      "chronologicalOrder": 1,
+      "poster":"https://picfiles.alphacoders.com/174/174248.jpg",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 4
+    },
+    {
+      "name":"Vingadores",
+      "about": "Quando um inimigo inesperado ameaça a segurança global, Nick Fury, diretor da agência internacional pacificadora conhecida como S.H.I.E.L.D., se vê precisando de uma equipe para puxar o mundo de volta da beira do desastre. Abrangendo o globo, um esforço de recrutamento ousado começa.",
+      "releaseDate": 2012,
+      "chronologicalOrder": 7,
+      "poster":"https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 5
+    },
+    {
+      "name":"Capitã Marvel",
+      "about": "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.",
+      "releaseDate": 2019,
+      "chronologicalOrder": 5,
+      "poster":"https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg",
+      "availableAt":[
+        "Disney+"
+      ],
+      "stars": 4
+    }
+
+  ],
+  "hqs": [
+    {
+      "name": "Thor: Vikings",
+      "about": "Garth Ennis e sua violência atacam novamente na HQ que leva a violência das histórias de Thor ao limite! Na minissérie de 2003 vemos vikings de um passado distante voltando a vida.",
+      "cover":"https://images-na.ssl-images-amazon.com/images/I/91Pl1w1pP3L.jpg",
+      "availableAt": [
+        "Americanas",
+        "Amazon"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "Surfista Prateado: Parábola",
+      "about": "O único oponente do Devorador de Mundo é o herói que ele aprisionou na Terra: o Surfista Prateado, Galactus jurou não consumir o planeta, mas e se, em vez disso, ele transformar a civilização em seus adoradores?",
+      "cover":"https://images-na.ssl-images-amazon.com/images/I/A1OtioU9YvL.jpg",
+      "availableAt": [
+        "Americanas",
+        "Amazon",
+        "Panini"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "Wolverine: Origens",
+      "about": "Origem é uma minissérie em quadrinhos publicada pela Marvel Comics em seis edições, entre 2001 e 2002. A história conta a revelação do passado do personagem Wolverine.",
+      "cover":"https://images-na.ssl-images-amazon.com/images/I/91WCBSiBISL.jpg",
+      "availableAt": [
+        "Amazon"
+      ],
+      "stars": 5
+    },
+    {
+      "name": "X-men: Guerras Asgardianas",
+      "about": "Quando o Deus das Trapaças perde algo que lhe é caro, ele decide que um erro justifica o outro e direciona sua magia contra os X-Men, mas acaba topando com os Novos Mutantes, que se envolvem em uma enrascada asgardiana!",
+      "cover":"https://images-na.ssl-images-amazon.com/images/I/51FkpkPvAQS.jpg",
+      "availableAt": [
+        "Amazon",
+        "Panini"
+      ],
+      "stars": 4
+    },
+    {
+      "name": "Homem-aranha: História De Vida",
+      "about": "Em Amazing Fantasy 15, de 1962, Peter Parker, um garoto de 15 anos, é picado por uma aranha irradiada e se torna o Espetacular Homem-Aranha! Cinquenta e oito anos se passaram no mundo real desde então - o que aconteceria se o mesmo tempo passasse para Peter?",
+      "cover":"https://images-na.ssl-images-amazon.com/images/I/412KPOUG9VL.jpg",
+      "availableAt": [
+        "Amazon",
+        "Panini"
+      ],
+      "stars": 5
+    }
+  ]
+}
