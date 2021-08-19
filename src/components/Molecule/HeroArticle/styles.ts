@@ -18,14 +18,14 @@ export const HeroArticleContainer = styled.article`
     box-shadow: 0 0 20px #FF0000;
   }
 
-  .article-hero-image{
+  .article-hero__image{
     object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -1;
   }
 
-  .article-hero-description{
+  .article-hero__description{
     height: calc(42.5% - 3.2rem);
     padding: 1.8rem 0 1.8rem 0;
     position: relative;
@@ -41,17 +41,17 @@ export const HeroArticleContainer = styled.article`
     background: linear-gradient(red, rgba(255, 0, 0, 0.2));
   }
 
-  .article-hero-name{
+  .article-hero__name{
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .article-hero-about{
+  .article-hero__about{
     width: 90%;
     font-size: 0.9rem;
   }
 
-  .article-hero-button{
+  .article-hero__button{
     border: 0;
     background: transparent;
     font-size: 1.3rem;

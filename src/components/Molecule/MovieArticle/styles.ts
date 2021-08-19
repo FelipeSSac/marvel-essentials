@@ -18,14 +18,14 @@ export const MovieArticleContainer = styled.section`
     box-shadow: 0 0 20px #FF0000;
   }
 
-  .article-movie-image{
+  .article-movie__image{
     object-fit: cover;
     width: 100%;
     height: 100%;
     z-index: -1;
   }
 
-  .article-movie-description{
+  .article-movie__description{
     height: calc(42.5% - 3.2rem);
     padding: 1.8rem 0 1.8rem 0;
     position: relative;
@@ -41,17 +41,17 @@ export const MovieArticleContainer = styled.section`
     background: linear-gradient(red, rgba(255, 0, 0, 0.2));
   }
 
-  .article-movie-name{
+  .article-movie__name{
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .article-movie-about{
+  .article-movie__about{
     width: 90%;
     font-size: 0.9rem;
   }
 
-  .article-movie-button{
+  .article-movie__button{
     border: 0;
     background: transparent;
     font-size: 1.3rem;

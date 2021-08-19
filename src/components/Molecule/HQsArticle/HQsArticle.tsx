@@ -13,18 +13,18 @@ export default function HQsArticle() {
         return (
           <HQArticleContainer key={key}>
             <img
-              className="article-hq-image"
+              className="article-hq__image"
               src={hq.cover}
               alt={hq.name}
             />
-            <dl className="article-hq-description">
-              <dt className="article-hq-name">
+            <dl className="article-hq__description">
+              <dt className="article-hq__name">
                 {hq.name}
               </dt>
-              <dl className="article-hq-about">
+              <dl className="article-hq__about">
                 {hq.about}
               </dl>
-              <button type="button" className="article-hq-button">
+              <button type="button" className="article-hq__button">
                 Ver Detalhes
               </button>
             </dl>

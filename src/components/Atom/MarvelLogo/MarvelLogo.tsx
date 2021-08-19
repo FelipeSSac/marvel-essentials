@@ -1,17 +1,17 @@
-import { useHistory } from 'react-router-dom';
-
 import { MarvelLogoContainer } from './styles';
 
-export default function MarvelLogo() {
-  const history = useHistory();
+interface IMavelLogoProps {
+  className?: string;
+}
 
-  const handleHeroes = () => {
-    history.push('/');
-  };
-
+export default function MarvelLogo({ className = 'header__logo' }: IMavelLogoProps) {
   return (
-    <MarvelLogoContainer onClick={handleHeroes}>
+    <MarvelLogoContainer
+      className={className}
+    >
       Marvel
     </MarvelLogoContainer>
   );
 }
+
+MarvelLogo.defaultProps = { className: 'header__logo' };

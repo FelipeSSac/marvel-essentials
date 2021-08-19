@@ -90,5 +90,5 @@ $ yarn build
 
 ## 💎 Next steps
 
-- Create an API to get the data about Marvel's stuff in a database, instead a mock JSON file.
+- Create an API to register the data from Marvel and store in a database, instead a mock JSON file.
 - Create a hero, movie or HQ details page.

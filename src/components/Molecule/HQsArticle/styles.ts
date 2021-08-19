@@ -18,14 +18,14 @@ export const HQArticleContainer = styled.article`
     box-shadow: 0 0 20px #FF0000;
   }
 
-  .article-hq-image{
+  .article-hq__image{
     object-fit: cover;
     width: 101%;
     height: 100%;
     z-index: -1;
   }
 
-  .article-hq-description{
+  .article-hq__description{
     height: calc(42.5% - 3.2rem);
     padding: 1.8rem 0 1.8rem 0;
     position: relative;
@@ -41,17 +41,17 @@ export const HQArticleContainer = styled.article`
     background: linear-gradient(red, rgba(255, 0, 0, 0.2));
   }
 
-  .article-hq-name{
+  .article-hq__name{
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .article-hq-about{
+  .article-hq__about{
     width: 90%;
     font-size: 0.9rem;
   }
 
-  .article-hq-button{
+  .article-hq__button{
     border: 0;
     background: transparent;
     font-size: 1.3rem;

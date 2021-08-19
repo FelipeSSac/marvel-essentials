@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const MarvelLogoContainer = styled.button`
-  width: 9rem;
-  height: 3.6rem;
+export const MarvelLogoContainer = styled.div`
+  width: 144px;
+  height: 57.6px;
 
   background-color: #FF0000;
   color: #fff;
-  font-size: 3.8rem;
+  font-size: 60.8px;
   font-family: Marvel;
   text-transform: uppercase;
   text-align: center;

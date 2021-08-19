@@ -41,18 +41,18 @@ export default function MovieArticle() {
         return (
           <MovieArticleContainer key={key}>
             <img
-              className="article-movie-image"
+              className="article-movie__image"
               src={movie.poster}
               alt={movie.name}
             />
-            <dl className="article-movie-description">
-              <dt className="article-movie-name">
+            <dl className="article-movie__description">
+              <dt className="article-movie__name">
                 {movie.name}
               </dt>
-              <dl className="article-movie-about">
+              <dl className="article-movie__about">
                 {movie.about}
               </dl>
-              <button type="button" className="article-movie-button">
+              <button type="button" className="article-movie__button">
                 Ver Detalhes
               </button>
             </dl>

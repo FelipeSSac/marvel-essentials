@@ -16,18 +16,18 @@ export default function HeroArticle() {
             key={key}
           >
             <img
-              className="article-hero-image"
+              className="article-hero__image"
               src={hero.cover}
               alt={hero.name}
             />
-            <dl className="article-hero-description">
-              <dt className="article-hero-name">
+            <dl className="article-hero__description">
+              <dt className="article-hero__name">
                 {hero.name}
               </dt>
-              <dl className="article-hero-about">
+              <dl className="article-hero__about">
                 {hero.about}
               </dl>
-              <button type="button" className="article-hero-button">
+              <button type="button" className="article-hero__button">
                 Ver Detalhes
               </button>
             </dl>
