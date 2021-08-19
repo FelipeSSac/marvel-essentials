@@ -6,7 +6,7 @@ export default function MarvelLogo() {
   const history = useHistory();
 
   const handleHeroes = () => {
-    history.push('/heroes');
+    history.push('/');
   };
 
   return (

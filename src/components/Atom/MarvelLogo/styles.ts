@@ -10,4 +10,6 @@ export const MarvelLogoContainer = styled.button`
   font-family: Marvel;
   text-transform: uppercase;
   text-align: center;
+  outline: none;
+  border: 0;
 `;

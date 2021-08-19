@@ -1,46 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">Marvel Essentials</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## ✨ Technologies
 
-## Available Scripts
+This project was developed using the following technologies:
 
-In the project directory, you can run:
+- [React](https://reactjs.org/)
+- [React DOM](https://pt-br.reactjs.org/docs/react-dom.html)
+- [Create REACT-APP](https://github.com/facebook/create-react-app)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux](https://react-redux.js.org/)
+- [Styled-components](https://www.styled-components.com/)
+- [JSONWebToken](https://jwt.io/)
+- [ESLint](https://eslint.org/)
+- [EditorConfig](https://editorconfig.org/)
 
-### `yarn start`
+## 💻 Project
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+React application for Marvel's best content, you can login with your GitHub username and receive a token from JSONWebToken, you can check out the 3 different sliders about heroes, movies and HQs, on every slider item you can check where the hero appears or where the movie and HQ it's available, you can also logout from the application dropping the token clicking in "Sair".
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🎯 Challenge
 
-### `yarn test`
+This project is based on the [Front-end](https://github.com/Mestres-da-Web/desafio-frontend-jr) challenge.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## 🔧 Technologies choice
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project developed using the React library to make it a Single Page Application, which guarantees the best performance when running directly in the client's browser, Create React Application tool to configure the environment, TypeScript as the language to guarantee props and state values accordingly as expected from the contract, JSONWebToken as the token handler stored in the Local Storage, which allows user to access the application with no need to login one more time, Redux as the global context state management, Styled Components to avoid unnecessary and conflicting component styles, Atomic Design as the design pattern to promote clean maintenance and good coding practices according to ESLint and EditorConfig.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ## 🔨 Project Architecture
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Project Architecture based on Atomic Design and SOLID principles.
 
-### `yarn eject`
+ ```
+ src
+ ├──assets
+ │   ├──fonts
+ │   ├──images
+ │   └──styles
+ ├──components
+ │   ├──Atom
+ │   ├──Molecule
+ │   └──Organism
+ ├──helpers
+ ├──pages
+ ├──resources
+ │   └──data
+ ├──routes
+ └──store
+     └──actions
+ ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ ## 🧪 Components
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ```
+ Component
+  ├──Component.tsx
+  ├──styles.ts
+  └──index.ts
+ ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+ ## 🎆 Redux
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ Redux was used to guarantee the data from user's GitHub on every component and to login and logout.
+ you can access the redux actions on folder `src/store/actions`.
 
-## Learn More
+## 🚀 How to run
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Clone this repository.
+```bash
+# Run to install dependencies.
+$ yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Run to start the project on `localhost:3000`.
+$ yarn start
+```
+
+## 🚧 How to build
+
+Clone this repository.
+```bash
+# Run to install dependencies.
+$ yarn
+
+# Run to start building the project.
+$ yarn build
+
+# Builded project it´s now available at folder `root/build`
+```
+
+## 💎 Next steps
+
+- Create an API to get the data about Marvel's stuff in a database, instead a mock JSON file.
+- Create a hero, movie or HQ details page.

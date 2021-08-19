@@ -1,15 +1,22 @@
-import { Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // import PrivateRoutes from './privateRoutes';
 
-import { Home } from '../pages/Home';
+import { Heroes } from '../pages/Heroes';
+import { Movies } from '../pages/Movies';
+import { HQs } from '../pages/HQs';
+
 import { Login } from '../pages/Login';
 
 export default function Router() {
   return (
-    <>
-      <Route exact path="/" component={Home} />
-      <Route exact={false} path="/login" component={Login} />
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route exact path="/" component={Heroes} />
+        <Route path="/movies" component={Movies} />
+        <Route path="/hqs" component={HQs} />
+        <Route path="/login" component={Login} />
+      </Switch>
+    </BrowserRouter>
   );
 }

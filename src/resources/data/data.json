@@ -79,7 +79,7 @@
       "name":"Thor",
       "about": "Quando é banido do reino de Asgard e exilado na Terra, o arrogante guerreiro Thor (Chris Hermsworth) é obrigado a lutar para reaver seus poderes perdidos.",
       "releaseDate": 2011,
-      "chronologicalOrder": 6,
+      "chronologicalOrder": 5,
       "poster":"https://static.wikia.nocookie.net/be64cdb9-7dd7-465d-a71a-ebedefce1bb0",
       "availableAt":[
         "Disney+"
@@ -89,7 +89,7 @@
     {
       "name":"Capitão América",
       "about": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo.",
-      "releaseDate": 2011,
+      "releaseDate": 2012,
       "chronologicalOrder": 1,
       "poster":"https://picfiles.alphacoders.com/174/174248.jpg",
       "availableAt":[
@@ -99,9 +99,9 @@
     },
     {
       "name":"Vingadores",
-      "about": "Quando um inimigo inesperado ameaça a segurança global, Nick Fury, diretor da agência internacional pacificadora conhecida como S.H.I.E.L.D., se vê precisando de uma equipe para puxar o mundo de volta da beira do desastre. Abrangendo o globo, um esforço de recrutamento ousado começa.",
+      "about": "Nick Fury, se vê precisando de uma equipe para puxar o mundo de volta da beira do desastre. Abrangendo o globo, um esforço de recrutamento ousado começa.",
       "releaseDate": 2012,
-      "chronologicalOrder": 7,
+      "chronologicalOrder": 6,
       "poster":"https://m.media-amazon.com/images/M/MV5BNDYxNjQyMjAtNTdiOS00NGYwLWFmNTAtNThmYjU5ZGI2YTI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       "availableAt":[
         "Disney+"
@@ -112,7 +112,7 @@
       "name":"Capitã Marvel",
       "about": "Capitã Marvel, parte do exército de elite dos Kree, uma raça alienígena, encontra-se no meio de uma batalha entre seu povo e os Skrulls.",
       "releaseDate": 2019,
-      "chronologicalOrder": 5,
+      "chronologicalOrder": 2,
       "poster":"https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_.jpg",
       "availableAt":[
         "Disney+"
@@ -164,7 +164,7 @@
     },
     {
       "name": "Homem-aranha: História De Vida",
-      "about": "Em Amazing Fantasy 15, de 1962, Peter Parker, um garoto de 15 anos, é picado por uma aranha irradiada e se torna o Espetacular Homem-Aranha! Cinquenta e oito anos se passaram no mundo real desde então - o que aconteceria se o mesmo tempo passasse para Peter?",
+      "about": "Cinquenta e oito anos se passaram no mundo real desde de 1962 - o que aconteceria se o mesmo tempo passasse para Peter?",
       "cover":"https://images-na.ssl-images-amazon.com/images/I/412KPOUG9VL.jpg",
       "availableAt": [
         "Amazon",
