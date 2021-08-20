@@ -18,7 +18,9 @@ This project was developed using the following technologies:
 
 ## 💻 Project
 
-React application for Marvel's best content, you can login with your GitHub username and receive a token from JSONWebToken, you can check out the 3 different sliders about heroes, movies and HQs, on every slider item you can check where the hero appears or where the movie and HQ it's available, you can also logout from the application dropping the token clicking in "Sair".
+### Preview the project [here](https://marvel-essentials-fss.vercel.app)
+
+React application for Marvel's content, you can login with your GitHub username and receive a token from JSONWebToken, you can check out the 3 different sliders about heroes, movies and comics, on every slider item you can check where the hero appears or where the movie and comic it's available, you can also logout from the application dropping the token clicking in "Sair".
 
 ## 🎯 Challenge
 
@@ -35,6 +37,7 @@ Project developed using the React library to make it a Single Page Application, 
 
  ```
  src
+ ├──@types
  ├──assets
  │   ├──fonts
  │   ├──images
@@ -44,6 +47,9 @@ Project developed using the React library to make it a Single Page Application, 
  │   ├──Molecule
  │   └──Organism
  ├──helpers
+ │   ├──ensurers
+ │   ├──handlers
+ │   └──hooks
  ├──pages
  ├──resources
  │   └──data
@@ -63,9 +69,21 @@ Project developed using the React library to make it a Single Page Application, 
 
  ## 🎆 Redux
 
- Redux was used to guarantee the data from user's GitHub on every component, save the token, login and logout the user.
+  Redux was used to guarantee the data from user's GitHub on every component, save the token, login and logout the user.
 
- You can access the redux actions on folder `src/store/actions`.
+  On the Login page by checking 'Save login', you choose to store the token in Local Storage. In Redux Initial State we get the token from Local Storage, if it doesn't exist you can login again or for the first time, once private routes checks the token directly from Redux.
+
+ `
+  InitialState = {
+    token: ${localStorage.getItem()},
+    user: {
+      githubUserImage: `https://github.com/${githubUser}.png`,
+      githubUser,
+    },
+  }
+ `
+
+  You can access the redux actions on folder `src/store/actions`.
 
 ## 🚀 How to run
 
@@ -93,5 +111,5 @@ $ yarn build
 
 ## 💎 Next steps
 
-- Create an API to register the data from Marvel and store in a database, instead a mock JSON file.
-- Create a hero, movie or HQ details page.
+- Use data from [Marvel's API](https://developer.marvel.com/) instead a mock JSON file.
+- Create buttons on cards that can take the user to the streaming or market.

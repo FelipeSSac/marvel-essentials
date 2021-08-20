@@ -16,7 +16,7 @@ interface IMovie {
   stars: number;
 }
 
-interface IHQ {
+interface IComic {
   name: string;
   about: string;
   cover: string;
@@ -27,5 +27,5 @@ interface IHQ {
 export interface IData {
   heroes: Array<IHero>;
   movies: Array<IMovie>;
-  hqs: Array<IHQ>;
+  comics: Array<IComic>;
 }

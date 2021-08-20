@@ -1,14 +1,14 @@
 import { Header } from '../../components/Organism/Header';
 import { MainContent } from '../../components/Organism/MainContent';
 
-import { HQsArticles } from '../../components/Molecule/HQsArticles';
+import { ComicsArticles } from '../../components/Molecule/ComicsArticles';
 
-export default function HQs() {
+export default function Comics() {
   return (
     <>
       <Header />
-      <MainContent type="hqs">
-        <HQsArticles />
+      <MainContent type="comics">
+        <ComicsArticles />
       </MainContent>
     </>
   );

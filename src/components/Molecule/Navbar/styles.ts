@@ -26,15 +26,16 @@ export const NavContainer = styled.nav`
     pointer-events: none;
   }
 
-  @media (min-width: 621px) and (max-width:961px){
+  @media (min-width: 621px) and (max-width:1025px){
     width: 40rem;
+    margin-left: 1rem;
   }
 
   @media (min-width: 300px) and (max-width:620px){
     width: 100%;
 
     .nav__link{
-      font-size: 1.6rem;
+      font-size: 1.4rem;
     }
   }
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HQArticleContainer = styled.article`
+export const ComicsArticleContainer = styled.article`
   border-radius: 2rem;
   flex: none;
   transition: all 0.2s ease;
@@ -23,9 +23,8 @@ export const HQArticleContainer = styled.article`
     height: 100%;
     background: linear-gradient(155deg, rgba(112,112,112,0.4) 0%, rgba(112,112,112,0.6) 100%);
 
-    .article-hq-container{
-      width: 100%;
-      max-width: 55rem;
+    .article-comic-container{
+      width: 55rem;
 
       position: relative;
       top: calc(50% - 17.5rem);
@@ -41,7 +40,7 @@ export const HQArticleContainer = styled.article`
       animation-timing-function: ease;
     }
 
-    .article-hq__image{
+    .article-comic__image{
       width: 45%;
 
       display: inline-block;
@@ -49,7 +48,7 @@ export const HQArticleContainer = styled.article`
       border-radius: 2rem;
     }
 
-    .article-hq__details{
+    .article-comic__details{
       width: 50%;
       margin-left: 5%;
       padding-top: 3rem;
@@ -63,16 +62,17 @@ export const HQArticleContainer = styled.article`
       border-radius: 2rem;
     }
 
-    .article-hq__description{
+    .article-comic__description{
       display: none;
     }
   }
 
   /* Show card end */
 
+
   /* Article container */
 
-  .article-hq-container{
+  .article-comic-container{
     width: 25rem;
     height: 35rem;
 
@@ -86,7 +86,7 @@ export const HQArticleContainer = styled.article`
     }
   }
 
-  .article-hq__image{
+  .article-comic__image{
     object-fit: cover;
     width: 101%;
     height: 100%;
@@ -94,7 +94,7 @@ export const HQArticleContainer = styled.article`
 
   /* description */
 
-  .article-hq__description{
+  .article-comic__description{
     height: calc(42.5% - 3.2rem);
     padding: 1.8rem 0 1.8rem 0;
     position: relative;
@@ -110,17 +110,17 @@ export const HQArticleContainer = styled.article`
     background: linear-gradient(red, rgba(255, 0, 0, 0.2));
   }
 
-  .article-hq__description--name{
+  .article-comic__description--name{
     font-size: 1.5rem;
     font-weight: bold;
   }
 
-  .article-hq__description--about{
+  .article-comic__description--about{
     width: 90%;
     font-size: 0.9rem;
   }
 
-  .article-hq__button--show-card{
+  .article-comic__button--show-card{
     border: 0;
     background: transparent;
     font-size: 1.3rem;
@@ -131,30 +131,30 @@ export const HQArticleContainer = styled.article`
 
   /* details */
 
-  .article-hq__details{
+  .article-comic__details{
     display: none;
   }
 
-  .article-hq__details--name{
+  .article-comic__details--name{
     font-size: 2.4rem;
     font-weight: bold;
   }
 
-  .article-hq__details--about{
+  .article-comic__details--about{
     width: 85%;
 
     font-size: 1.2rem;
     line-height: 1.6rem;
   }
 
-  .article-hq__details--market-name{
+  .article-comic__details--market-name{
     margin-bottom: 0.6rem;
 
     font-size: 1.2rem;
     font-weight: bold;
   }
 
-  .article-hq__details--market-place{
+  .article-comic__details--market-place{
     object-fit: cover;
     width: 4.2rem;
     height: 4.2rem;
@@ -163,30 +163,30 @@ export const HQArticleContainer = styled.article`
     box-shadow: 2px 2px 51px -28px rgba(70, 70, 70, 0.2);
 
 
-    & + .article-hq__details--market-place{
+    & + .article-comic__details--market-place{
       margin-left: 0.3rem;
     }
 
   }
 
-  .article-hq__star-title{
+  .article-comic__star-title{
     font-weight: bold;
     font-size: 1.6rem;
   }
 
-  .article-hq__details-star{
+  .article-comic__details-star{
     width: 2.5rem;
     height: 2.5rem;
     fill: #ffe500;
   }
 
-  .article-hq__details-star-empty{
+  .article-comic__details-star-empty{
     width: 2.5rem;
     height: 2.5rem;
     fill: #707070;
   }
 
-  .article-hq__button--close-card{
+  .article-comic__button--close-card{
     position: absolute;
     right: 2rem;
     bottom: 2rem;

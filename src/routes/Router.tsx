@@ -4,7 +4,7 @@ import PrivateRoutes from './privateRoutes';
 
 import { Heroes } from '../pages/Heroes';
 import { Movies } from '../pages/Movies';
-import { HQs } from '../pages/HQs';
+import { Comics } from '../pages/Comics';
 
 import { Login } from '../pages/Login';
 
@@ -14,7 +14,7 @@ export default function Router() {
       <Switch>
         <PrivateRoutes exact path="/" component={Heroes} />
         <PrivateRoutes path="/movies" component={Movies} />
-        <PrivateRoutes path="/hqs" component={HQs} />
+        <PrivateRoutes path="/comics" component={Comics} />
         <Route path="/login" component={Login} />
       </Switch>
     </BrowserRouter>

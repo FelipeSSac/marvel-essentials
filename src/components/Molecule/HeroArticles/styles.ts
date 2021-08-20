@@ -24,8 +24,7 @@ export const HeroArticleContainer = styled.article`
     background: linear-gradient(155deg, rgba(112,112,112,0.4) 0%, rgba(112,112,112,0.6) 100%);
 
     .article-hero-container{
-      width: 100%;
-      max-width: 55rem;
+      width: 55rem;
 
       position: relative;
       top: calc(50% - 17.5rem);

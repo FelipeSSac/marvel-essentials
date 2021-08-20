@@ -41,6 +41,7 @@ export const MainContentContainer = styled.main`
   .section-movies__select__option{
     width: 100%;
     padding: 0 0.87rem;
+    margin-top: 0.1rem;
 
     background: transparent;
     color: #f00;
@@ -82,7 +83,7 @@ export const MainContentContainer = styled.main`
   }
 
   .show-select-box{
-    height: 7.5rem;
+    height: 7.8rem;
   }
 
   .button-toggle-show{
@@ -117,7 +118,33 @@ export const MainContentContainer = styled.main`
     visibility: hidden;
   }
 
-  @media (min-width: 300px) and (max-width:620px) {
+  @media (min-width: 300px) and (max-width:768px) {
+    .article--show-details{
+      .article-hero-container, .article-movie-container, .article-comic-container{
+      width: 100%;
+      height: 100%;
+
+      top: 0;
+      left: 0;
+
+        .article-hero__image, .article-movie__image, .article-comic__image{
+          width: 100%;
+          position: absolute;
+        }
+
+        .article-hero__details, .article-movie__details, .article-comic__details{
+          width: 100%;
+          height: 100%;
+          margin: 0;
+          padding-left: 2rem;
+          z-index: 2;
+
+          border-radius: 2rem;
+          background: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.2));
+        }
+      }
+    }
+
     .button-toggle-show{
       display: none;
     }

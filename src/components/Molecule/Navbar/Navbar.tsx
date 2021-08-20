@@ -8,7 +8,7 @@ export default function Navbar() {
   const navItems = [
     { id: 'aS213', name: 'Personagens', path: '/' },
     { id: 'Ba597', name: 'Filmes', path: '/movies' },
-    { id: 'GH089', name: 'HQs', path: '/hqs' },
+    { id: 'GH089', name: 'HQs', path: '/comics' },
   ];
 
   return (

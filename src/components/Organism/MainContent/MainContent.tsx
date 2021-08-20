@@ -6,7 +6,7 @@ import data from '../../../resources/data/data.json';
 import { MainContentContainer } from './styles';
 
 interface IMainContentProps {
-  type: 'heroes' | 'movies' | 'hqs';
+  type: 'heroes' | 'movies' | 'comics';
   children: ReactElement;
 }
 
@@ -33,7 +33,6 @@ export default function MainContent({ type, children }: IMainContentProps) {
 
   return (
     <MainContentContainer>
-      <div id="modal-root" />
       <section className="main-content__section" data-ts="section">
         <button
           type="button"
