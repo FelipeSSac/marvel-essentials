@@ -133,9 +133,9 @@ export const MainContentContainer = styled.main`
         }
 
         .article-hero__details, .article-movie__details, .article-comic__details{
-          width: 95%;
-          height: 100%;
-          padding-left: 5%;
+          width: 95vw;
+          height: 100vh;
+          padding-left: 5vw;
           margin: 0;
           z-index: 2;
 
