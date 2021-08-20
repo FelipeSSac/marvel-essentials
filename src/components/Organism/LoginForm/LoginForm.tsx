@@ -77,7 +77,11 @@ export default function LoginForm() {
           />
           <span>Salvar login</span>
         </label>
-        <button className="login__button-forget" type="button">Esqueci a senha</button>
+        <button className="login__button-forget" type="button">
+          <a href="https://github.com/password_reset">
+            Esqueci a senha
+          </a>
+        </button>
       </div>
       <button className="login__button-submit" type="submit">Entrar</button>
       <p className="login__paragraph-register">

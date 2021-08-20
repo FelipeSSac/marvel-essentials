@@ -108,11 +108,15 @@ export const LoginFormContainer = styled.form`
     background: transparent;
     border: 0;
     border-bottom: 1px solid #f00;
-    color: #707070;
-    transition: color 0.2s ease;
 
-    &:hover{
-      color: #f00;
+    a{
+      color: #707070;
+      transition: color 0.2s ease;
+      text-decoration: none;
+
+      &:hover{
+        color: #f00;
+      }
     }
   }
 
