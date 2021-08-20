@@ -76,13 +76,14 @@ export const MovieArticleContainer = styled.section`
 
         .article-movie__image{
           width: 100%;
+          height: 100%;
           position: absolute;
         }
 
         .article-movie__details{
-          width: 95vw;
-          height: 100vh;
-          padding-left: 5vw;
+          width: 95%;
+          height: 100%;
+          padding-left: 5%;
           margin: 0;
           z-index: 2;
 
