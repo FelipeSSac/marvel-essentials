@@ -208,5 +208,4 @@ export const MovieArticleContainer = styled.section`
   /* details end */
 
   /* Article container end*/
-
 `;

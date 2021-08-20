@@ -133,10 +133,10 @@ export const MainContentContainer = styled.main`
         }
 
         .article-hero__details, .article-movie__details, .article-comic__details{
-          width: 100%;
+          width: 95%;
           height: 100%;
+          padding-left: 5%;
           margin: 0;
-          padding-left: 2rem;
           z-index: 2;
 
           border-radius: 2rem;
