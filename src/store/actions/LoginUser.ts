@@ -1,11 +1,11 @@
-import { IState, IAction } from '..';
+import { IAction } from '..';
 
-export default function LoginUser(state: IState, action: IAction) {
+export default function LoginUser(action: IAction) {
   return {
-    ...state,
+    token: action.token,
     user: {
-      name: action.userName,
-      image: action.userImage,
+      githubUserImage: `https://github.com/${action.user.githubUser}.png`,
+      githubUser: action.user.githubUser,
     },
   };
 }

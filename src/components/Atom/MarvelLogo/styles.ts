@@ -12,4 +12,10 @@ export const MarvelLogoContainer = styled.div`
   text-align: center;
   outline: none;
   border: 0;
+
+  @media (min-width: 300px) and (max-width:620px){
+    &.header__logo{
+      display: none;
+    }
+  }
 `;

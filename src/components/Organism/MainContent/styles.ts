@@ -38,6 +38,53 @@ export const MainContentContainer = styled.main`
     }
   }
 
+  .section-movies__select__option{
+    width: 100%;
+    padding: 0 0.87rem;
+
+    background: transparent;
+    color: #f00;
+    text-align: left;
+    border: 0;
+    line-height: 2.5rem;
+    font-size: 1.125rem;
+    z-index: 3;
+  }
+
+  .section-movies__select__icon{
+    width: 1rem;
+
+    position: absolute;
+    top: 0.93rem;
+    right: 1rem;
+    z-index: 2;
+  }
+
+  .section-movies__select-container{
+    width: 10.6rem;
+    height: 2.6rem;
+
+    position: absolute;
+    top: 5vh;
+    left: 10rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border: 2px solid #f00;
+    background-color: #000;
+    color: #f00;
+    font-size: 16.2rem;
+    border-radius: 8px;
+    transition: height 0.2s ease;
+    overflow: hidden;
+  }
+
+  .show-select-box{
+    height: 7.5rem;
+  }
+
   .button-toggle-show{
     width: 3.2rem;
     position: absolute;
@@ -68,6 +115,12 @@ export const MainContentContainer = styled.main`
   .button-toggle-show--hide {
     opacity: 0;
     visibility: hidden;
+  }
+
+  @media (min-width: 300px) and (max-width:620px) {
+    .button-toggle-show{
+      display: none;
+    }
   }
 
 

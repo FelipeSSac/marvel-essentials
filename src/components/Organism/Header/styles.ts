@@ -10,4 +10,8 @@ export const HeaderContainer = styled.header`
 
   background-color: #000;
   box-shadow: 0 0 10px #FF0000;
+
+  @media (min-width: 300px) and (max-width:620px){
+    padding: 0 1rem;
+  }
 `;

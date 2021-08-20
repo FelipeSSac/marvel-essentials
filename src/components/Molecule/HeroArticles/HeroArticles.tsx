@@ -2,7 +2,7 @@ import data from '../../../resources/data/data.json';
 
 import { HeroArticleContainer } from './styles';
 
-export default function HeroArticle() {
+export default function HeroArticles() {
   const { heroes } = data;
 
   return (

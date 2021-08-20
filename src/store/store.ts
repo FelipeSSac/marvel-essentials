@@ -8,19 +8,19 @@ import {
   LogoutUser,
 } from '.';
 
-const reducer = (state = initialState, action: IAction) => {
+function reducer(state = initialState, action: IAction) {
   switch (action.type) {
     case ActionTypes.LoginUser: {
-      return LoginUser(state, action);
+      return LoginUser(action);
     }
     case ActionTypes.LogoutUser: {
-      return LogoutUser(state);
+      return LogoutUser();
     }
     default: {
       return state;
     }
   }
-};
+}
 
 const store = createStore(reducer);
 

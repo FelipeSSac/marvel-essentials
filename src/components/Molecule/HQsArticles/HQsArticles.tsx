@@ -2,7 +2,7 @@ import data from '../../../resources/data/data.json';
 
 import { HQArticleContainer } from './styles';
 
-export default function HQsArticle() {
+export default function HQsArticles() {
   const { hqs } = data;
 
   return (

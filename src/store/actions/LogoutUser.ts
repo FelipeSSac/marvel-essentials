@@ -1,11 +1,11 @@
-import { IState } from '..';
+export default function LogoutUser() {
+  localStorage.removeItem('marvelEssentialToken');
 
-export default function LoginUser(state: IState) {
   return {
-    ...state,
+    token: '',
     user: {
-      name: '',
-      image: '',
+      githubUserImage: 'https://i1.wp.com/terracoeconomico.com.br/wp-content/uploads/2019/01/default-user-image.png?ssl=1',
+      githubUser: '',
     },
   };
 }

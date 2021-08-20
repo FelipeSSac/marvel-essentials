@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const NavContainer = styled.nav`
-  width: 900px;
+  width: 50rem;
   height: 100%;
 
   display: flex;
@@ -24,5 +24,17 @@ export const NavContainer = styled.nav`
   .nav__link--active{
     color: #fff;
     pointer-events: none;
+  }
+
+  @media (min-width: 621px) and (max-width:961px){
+    width: 40rem;
+  }
+
+  @media (min-width: 300px) and (max-width:620px){
+    width: 100%;
+
+    .nav__link{
+      font-size: 1.6rem;
+    }
   }
 `;

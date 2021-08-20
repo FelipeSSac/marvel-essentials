@@ -6,3 +6,5 @@ export type { IState } from './state';
 
 export { default as LoginUser } from './actions/LoginUser';
 export { default as LogoutUser } from './actions/LogoutUser';
+
+export { default as store } from './store';

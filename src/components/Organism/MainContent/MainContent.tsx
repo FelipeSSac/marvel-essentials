@@ -16,7 +16,7 @@ export default function MainContent({ type, children }: IMainContentProps) {
   const items = data[type];
   const { length } = items;
 
-  const handleShowSlide = (direction: string) => {
+  function handleShowSlide(direction: string) {
     const section = document.querySelector('[data-ts="section"]');
 
     if (!section) return null;
@@ -29,7 +29,7 @@ export default function MainContent({ type, children }: IMainContentProps) {
     setSliderCurrent((prevState) => prevState - 1);
 
     return section.scrollBy(-300, 0);
-  };
+  }
 
   return (
     <MainContentContainer>

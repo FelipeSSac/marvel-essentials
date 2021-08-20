@@ -1,15 +1,13 @@
+import { EnsurePrevUser } from '../helpers/ensurers';
+
 export interface IState {
+  token: string;
   user: {
-    name: string;
-    image: string;
+    githubUserImage: string,
+    githubUser: string;
   };
-  isAuthenticated: boolean;
 }
 
 export const initialState: IState = {
-  user: {
-    name: '',
-    image: '',
-  },
-  isAuthenticated: false,
+  ...EnsurePrevUser(),
 };

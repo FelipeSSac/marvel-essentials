@@ -1,10 +1,6 @@
 import { MarvelLogoContainer } from './styles';
 
-interface IMavelLogoProps {
-  className?: string;
-}
-
-export default function MarvelLogo({ className = 'header__logo' }: IMavelLogoProps) {
+export default function MarvelLogo({ className = 'header__logo' as string }) {
   return (
     <MarvelLogoContainer
       className={className}

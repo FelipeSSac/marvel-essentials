@@ -1,7 +1,10 @@
 export interface IAction {
   type: string;
-  userName: string;
-  userImage: string;
+  token: string;
+  user: {
+    githubUser: string,
+    githubUserImage: string,
+  },
 }
 
 export const ActionTypes = {
