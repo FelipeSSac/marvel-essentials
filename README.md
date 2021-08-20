@@ -29,7 +29,7 @@ Project developed using the React library to make it a Single Page Application, 
 
  ## 🔨 Project Architecture
 
- Project Architecture based on Atomic Design and SOLID principles.
+ Project Architecture based on Atomic Design.
 
  ```
  src
@@ -61,8 +61,9 @@ Project developed using the React library to make it a Single Page Application, 
 
  ## 🎆 Redux
 
- Redux was used to guarantee the data from user's GitHub on every component and to login and logout.
- you can access the redux actions on folder `src/store/actions`.
+ Redux was used to guarantee the data from user's GitHub on every component, save the token, login and logout the user.
+
+ You can access the redux actions on folder `src/store/actions`.
 
 ## 🚀 How to run
 

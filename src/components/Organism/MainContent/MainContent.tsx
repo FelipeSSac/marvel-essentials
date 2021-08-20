@@ -33,6 +33,7 @@ export default function MainContent({ type, children }: IMainContentProps) {
 
   return (
     <MainContentContainer>
+      <div id="modal-root" />
       <section className="main-content__section" data-ts="section">
         <button
           type="button"

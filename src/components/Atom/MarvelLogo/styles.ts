@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const MarvelLogoContainer = styled.div`
-  width: 144px;
-  height: 57.6px;
+  width: 135px;
+  height: 50px;
 
   background-color: #FF0000;
   color: #fff;

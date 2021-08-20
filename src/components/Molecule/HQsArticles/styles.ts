@@ -29,7 +29,7 @@ export const HQArticleContainer = styled.article`
     height: calc(42.5% - 3.2rem);
     padding: 1.8rem 0 1.8rem 0;
     position: relative;
-    top: calc(-42.5% - 1rem);
+    top: -42.5%;
 
     display: flex;
     flex-direction: column;

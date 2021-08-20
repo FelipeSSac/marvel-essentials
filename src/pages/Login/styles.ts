@@ -35,7 +35,7 @@ export const LoginMainComponent = styled.main`
 
   .login__logo{
     width: 350px;
-    height: 145px;
+    height: 130px;
     margin: 0 auto;
 
     font-size: 160px;
