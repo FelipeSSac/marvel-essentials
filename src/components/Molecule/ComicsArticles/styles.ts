@@ -65,6 +65,32 @@ export const ComicsArticleContainer = styled.article`
     .article-comic__description{
       display: none;
     }
+
+    @media (min-width: 300px) and (max-width:768px){
+      .article-comic-container{
+        width: 100%;
+        height: 100%;
+
+        top: 0;
+        left: 0;
+
+        .article-comic__image{
+          width: 100%;
+          position: absolute;
+        }
+
+        .article-comic__details{
+          width: 95vw;
+          height: 100vh;
+          padding-left: 5vw;
+          margin: 0;
+          z-index: 2;
+
+          border-radius: 2rem;
+          background: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.2));
+        }
+      }
+    }
   }
 
   /* Show card end */

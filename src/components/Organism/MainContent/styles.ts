@@ -119,32 +119,6 @@ export const MainContentContainer = styled.main`
   }
 
   @media (min-width: 300px) and (max-width:768px) {
-    .article--show-details{
-      .article-hero-container, .article-movie-container, .article-comic-container{
-      width: 100%;
-      height: 100%;
-
-      top: 0;
-      left: 0;
-
-        .article-hero__image, .article-movie__image, .article-comic__image{
-          width: 100%;
-          position: absolute;
-        }
-
-        .article-hero__details, .article-movie__details, .article-comic__details{
-          width: 95vw;
-          height: 100vh;
-          padding-left: 5vw;
-          margin: 0;
-          z-index: 2;
-
-          border-radius: 2rem;
-          background: linear-gradient(rgba(255, 0, 0, 0.4), rgba(255, 0, 0, 0.2));
-        }
-      }
-    }
-
     .button-toggle-show{
       display: none;
     }
