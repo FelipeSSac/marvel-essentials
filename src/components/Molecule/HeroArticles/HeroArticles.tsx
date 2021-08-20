@@ -1,9 +1,9 @@
 import { AiFillStar, AiOutlineCloseCircle } from 'react-icons/ai';
+import { HeroArticleContainer } from './styles';
 
-import data from '../../../resources/data/data.json';
 import { HandleShowDetails } from '../../../helpers/handlers';
 
-import { HeroArticleContainer } from './styles';
+import data from '../../../resources/data/data.json';
 
 export default function HeroArticles() {
   const { heroes } = data;

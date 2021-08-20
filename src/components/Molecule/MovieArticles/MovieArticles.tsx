@@ -2,13 +2,15 @@ import { useState } from 'react';
 import { useDetectClickOutside } from 'react-detect-click-outside';
 
 import { AiFillStar, AiOutlineCloseCircle } from 'react-icons/ai';
+import { ReactComponent as ArrowIcon } from '../../../assets/images/arrowicon.svg';
+import Disney from '../../../assets/images/disneypicon.png';
+import Amazon from '../../../assets/images/amazonicon.jpeg';
+
+import { MovieArticleContainer } from './styles';
 
 import { HandleShowDetails } from '../../../helpers/handlers';
 
 import data from '../../../resources/data/data.json';
-
-import { ReactComponent as ArrowIcon } from '../../../assets/images/arrowicon.svg';
-import { MovieArticleContainer } from './styles';
 
 export default function MovieArticles() {
   const { movies } = data;
@@ -101,6 +103,21 @@ export default function MovieArticles() {
                 <dd className="article-movie__details--about">
                   {movie.about}
                 </dd>
+                <dl>
+                  <dt className="article-movie__details--market-name">Disponível em streaming:</dt>
+                  <dd>
+                    {movie.availableAt.map((market) => {
+                      if (market === 'Disney+') {
+                        return (
+                          <img className="article-movie__details--market-place" src={Disney} alt="Disney+" />
+                        );
+                      }
+                      return (
+                        <img className="article-movie__details--market-place" src={Amazon} alt="Amazon" />
+                      );
+                    })}
+                  </dd>
+                </dl>
                 <dl className="article-movie__star">
                   <dt className="article-movie__star-title">Crítica:</dt>
                   <dd>

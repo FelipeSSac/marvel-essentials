@@ -71,7 +71,7 @@
       "chronologicalOrder": 4,
       "poster":"https://m.media-amazon.com/images/I/81sC6pkIARL._AC_SL1500_.jpg",
       "availableAt":[
-        "Disney+"
+        "Disney+","Amazon"
       ],
       "stars": 4
     },
@@ -87,13 +87,13 @@
       "stars": 5
     },
     {
-      "name":"Capitão América",
-      "about": "Em Capitão América: O Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo.",
+      "name":"Capitão América: Primeiro vingador",
+      "about": "Em Capitão América: Primeiro Vingador, conhecemos a história de Steve Rogers (Chris Evans) e como ele se tornou o melhor soldado do mundo.",
       "releaseDate": 2012,
       "chronologicalOrder": 1,
       "poster":"https://picfiles.alphacoders.com/174/174248.jpg",
       "availableAt":[
-        "Disney+"
+        "Disney+","Amazon"
       ],
       "stars": 4
     },

@@ -65,8 +65,8 @@ export const MainContentContainer = styled.main`
     height: 2.6rem;
 
     position: absolute;
-    top: 5vh;
-    left: 10rem;
+    top: 4vh;
+    left: 10vw;
 
     display: flex;
     flex-direction: column;

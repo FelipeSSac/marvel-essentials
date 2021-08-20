@@ -24,7 +24,8 @@ export const MovieArticleContainer = styled.section`
     background: linear-gradient(155deg, rgba(112,112,112,0.4) 0%, rgba(112,112,112,0.6) 100%);
 
     .article-movie-container{
-      width: 55rem;
+      width: 100%;
+      max-width: 55rem;
 
       position: relative;
       top: calc(50% - 17.5rem);
@@ -51,13 +52,13 @@ export const MovieArticleContainer = styled.section`
     .article-movie__details{
       width: 50%;
       margin-left: 5%;
-      padding-top: 6rem;
+      padding-top: 3rem;
 
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       align-items: flex-start;
-      gap: 2rem;
+      gap: 1rem;
 
       border-radius: 2rem;
     }
@@ -143,8 +144,32 @@ export const MovieArticleContainer = styled.section`
   }
 
   .article-movie__details--about{
+    width: 85%;
+
     font-size: 1.2rem;
     line-height: 1.6rem;
+  }
+
+  .article-movie__details--market-name{
+    margin-bottom: 0.6rem;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  .article-movie__details--market-place{
+    object-fit: cover;
+    width: 4.2rem;
+    height: 4.2rem;
+
+    border-radius: 1rem;
+    box-shadow: 2px 2px 51px -28px rgba(70, 70, 70, 0.2);
+
+
+    & + .article-movie__details--market-place{
+      margin-left: 0.3rem;
+    }
+
   }
 
   .article-movie__star-title{

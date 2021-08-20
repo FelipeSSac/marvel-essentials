@@ -1,5 +1,7 @@
 <h1 align="center">Marvel Essentials</h1>
 
+<h1 align="center"><img src="./src/assets/images/preview.gif" /></h1>
+
 ## ✨ Technologies
 
 This project was developed using the following technologies:
