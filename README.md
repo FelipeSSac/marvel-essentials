@@ -22,11 +22,6 @@ This project was developed using the following technologies:
 
 React application for Marvel's content, you can login with your GitHub username and receive a token from JSONWebToken, you can check out the 3 different sliders about heroes, movies and comics, on every slider item you can check where the hero appears or where the movie and comic it's available, you can also logout from the application dropping the token clicking in "Sair".
 
-## 🎯 Challenge
-
-This project is based on the [Front-end](https://github.com/Mestres-da-Web/desafio-frontend-jr) challenge.
-
-
 ## 🔧 Technologies choice
 
 Project developed using the React library to make it a Single Page Application, which guarantees the best performance when running directly in the client's browser, Create React Application tool to configure the environment, TypeScript as the language to guarantee props and state values accordingly as expected from the contract, JSONWebToken as the token handler stored in the Local Storage, which allows user to access the application with no need to login one more time, Redux as the global context state management, Styled Components to avoid unnecessary and conflicting component styles, Atomic Design as the design pattern to promote clean maintenance and good coding practices according to ESLint and EditorConfig.
