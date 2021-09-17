@@ -32,7 +32,7 @@ export default function MainContent({ type, children }: IMainContentProps) {
   }
 
   return (
-    <MainContentContainer>
+    <MainContentContainer data-testid={`main-content--${type}`}>
       <section className="main-content__section" data-ts="section">
         <button
           type="button"

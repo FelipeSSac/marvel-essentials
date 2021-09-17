@@ -21,6 +21,7 @@ export default function ComicsArticles() {
           <ComicsArticleContainer
             key={key}
             data-ts={`comic-article-${key}`}
+            data-testid="comic-article"
           >
             <div className="article-comic-container">
               <img
@@ -53,19 +54,21 @@ export default function ComicsArticles() {
                 <dl>
                   <dt className="article-comic__details--market-name">Disponível para compra:</dt>
                   <dd>
-                    {comic.availableAt.map((market) => {
+                    {comic.availableAt.map((market, ni) => {
+                      const nkey = ni * 23241;
+
                       if (market === 'Panini') {
                         return (
-                          <img className="article-comic__details--market-place" src={Panini} alt="Panini" />
+                          <img key={nkey} className="article-comic__details--market-place" src={Panini} alt="Panini" />
                         );
                       }
                       if (market === 'Amazon') {
                         return (
-                          <img className="article-comic__details--market-place" src={Amazon} alt="Amazon" />
+                          <img key={nkey} className="article-comic__details--market-place" src={Amazon} alt="Amazon" />
                         );
                       }
                       return (
-                        <img className="article-comic__details--market-place" src={Americanas} alt="Americanas" />
+                        <img key={nkey} className="article-comic__details--market-place" src={Americanas} alt="Americanas" />
                       );
                     })}
                   </dd>
@@ -73,20 +76,23 @@ export default function ComicsArticles() {
                 <dl className="article-comic__star">
                   <dt className="article-comic__star-title">Crítica:</dt>
                   <dd>
-                    {['', '', '', '', ''].map((star, index) => {
-                      if (index < comic.stars) {
+                    {['', '', '', '', ''].map((star, mi) => {
+                      const mkey = mi * 87631;
+
+                      if (mi < comic.stars) {
                         return (
-                          <AiFillStar className="article-comic__details-star" />
+                          <AiFillStar key={mkey} className="article-comic__details-star" />
                         );
                       }
                       return (
-                        <AiFillStar className="article-comic__details-star-empty" />
+                        <AiFillStar key={mkey} className="article-comic__details-star-empty" />
                       );
                     })}
                   </dd>
                 </dl>
                 <button
                   type="button"
+                  data-testid="comic-article__close-details"
                   className="article-comic__button--close-card"
                   onClick={() => HandleShowDetails(`comic-article-${key}`)}
                 >

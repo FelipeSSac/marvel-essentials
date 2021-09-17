@@ -74,6 +74,7 @@ export default function MovieArticles() {
           <MovieArticleContainer
             key={key}
             data-ts={`movie-article-${key}`}
+            data-testid="movie-article"
           >
             <div className="article-movie-container">
               <img
@@ -106,14 +107,16 @@ export default function MovieArticles() {
                 <dl>
                   <dt className="article-movie__details--market-name">Disponível em streaming:</dt>
                   <dd>
-                    {movie.availableAt.map((market) => {
+                    {movie.availableAt.map((market, ni) => {
+                      const nkey = ni * 27241;
+
                       if (market === 'Disney+') {
                         return (
-                          <img className="article-movie__details--market-place" src={Disney} alt="Disney+" />
+                          <img key={nkey} className="article-movie__details--market-place" src={Disney} alt="Disney+" />
                         );
                       }
                       return (
-                        <img className="article-movie__details--market-place" src={Amazon} alt="Amazon" />
+                        <img key={nkey} className="article-movie__details--market-place" src={Amazon} alt="Amazon" />
                       );
                     })}
                   </dd>
@@ -121,20 +124,23 @@ export default function MovieArticles() {
                 <dl className="article-movie__star">
                   <dt className="article-movie__star-title">Crítica:</dt>
                   <dd>
-                    {['', '', '', '', ''].map((star, index) => {
-                      if (index < movie.stars) {
+                    {['', '', '', '', ''].map((star, mi) => {
+                      const mkey = mi * 87271;
+
+                      if (mi < movie.stars) {
                         return (
-                          <AiFillStar className="article-movie__details-star" />
+                          <AiFillStar key={mkey} className="article-movie__details-star" />
                         );
                       }
                       return (
-                        <AiFillStar className="article-movie__details-star-empty" />
+                        <AiFillStar key={mkey} className="article-movie__details-star-empty" />
                       );
                     })}
                   </dd>
                 </dl>
                 <button
                   type="button"
+                  data-testid="movie-article__close-details"
                   className="article-movie__button--close-card"
                   onClick={() => HandleShowDetails(`movie-article-${key}`)}
                 >

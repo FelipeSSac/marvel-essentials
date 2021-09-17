@@ -18,7 +18,10 @@ export default function LoginForm() {
   const dispatch = useDispatch();
   const history = useHistory();
 
-  const [loginFormData, setLoginFormData] = useState({} as ILoginFormData);
+  const [loginFormData, setLoginFormData] = useState<ILoginFormData>({
+    githubUser: '',
+    saveUser: false,
+  });
   const [loginFormError, setLoginFormError] = useState(false);
 
   async function handleLoginSubmit(event: FormEvent<HTMLFormElement>) {
@@ -53,6 +56,7 @@ export default function LoginForm() {
       <label className="login__input-text__label" htmlFor="username">Acesse por meio do seu GitHub:</label>
       <input
         id="username"
+        data-testid="login-username-input"
         className={`login__input-text${loginFormError ? (' input-text--error') : ('')}`}
         placeholder="Usuário do GitHub"
         value={loginFormData.githubUser}
@@ -83,7 +87,13 @@ export default function LoginForm() {
           </a>
         </button>
       </div>
-      <button className="login__button-submit" type="submit">Entrar</button>
+      <button
+        data-testid="login-button"
+        className="login__button-submit"
+        type="submit"
+      >
+        Entrar
+      </button>
       <p className="login__paragraph-register">
         Ainda não tem um Login?
         <a className="login__anchor-register" href="https://github.com/join">Cadastre-se</a>

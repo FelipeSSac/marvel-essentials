@@ -1,10 +1,8 @@
 import { MarvelLogoContainer } from './styles';
 
-export default function MarvelLogo({ className = 'header__logo' as string }) {
+export default function MarvelLogo({ ...rest }) {
   return (
-    <MarvelLogoContainer
-      className={className}
-    >
+    <MarvelLogoContainer {...rest}>
       Marvel
     </MarvelLogoContainer>
   );
