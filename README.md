@@ -101,17 +101,18 @@ $ yarn
 $ yarn start
 ```
 
-## 🚧 How to build
+## 💣 How to test
 
 Clone this repository.
 ```bash
 # Run to install dependencies.
 $ yarn
 
-# Run to start building the project.
-$ yarn build
+# Run to test all suited tests.
+$ yarn test
 
-# Builded project it´s now available at folder `root/build`
+# Run to test all suited tests and get their coverage.
+$ yarn coverage
 ```
 
 ## 🚧 How to build
